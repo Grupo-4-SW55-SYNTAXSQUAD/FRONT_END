@@ -4,7 +4,7 @@
 
 <template >
 
-  <div class="main-toolbar">
+  <div class="main-toolbar"  ref="toolbar">
     <pv-toolbar class = "toolbar-component" >
 
       <template #start>
@@ -21,7 +21,7 @@
           <router-link to="activities">
             <pv-button class="toolbar-button" label="Actividades"/>
           </router-link>
-          <router-link to="promotion">
+          <router-link to="/promotion">
             <pv-button class="toolbar-button" label="Promociones"/>
           </router-link>
           <router-link to="contact">
@@ -30,9 +30,12 @@
         </div>
       </template>
       <template #end>
-        <div class=" toolbar-nav flex align-items-center">
-          <i class = "pi pi-user" style="font-size: 24px"></i>
-        </div>
+        <router-link to="/profile-tourist">
+          <div class=" toolbar-nav flex align-items-center">
+            <i class = "pi pi-user" style="font-size: 24px"></i>
+          </div>
+        </router-link>
+
       </template>
     </pv-toolbar>
   </div>
@@ -42,6 +45,10 @@
 
 <style scoped>
 
+.toolbar-component {
+  width: 100%;
+  z-index: 1000;
+}
 
 .toolbar-button{
   background-color: white;
