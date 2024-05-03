@@ -4,7 +4,7 @@ import DestinationsComponent from '@/public/components/destinations/destinations
 import InfoDestinationsComponent from '@/public/components/infodestinations/infodestinations.component.vue';
 import PromotionComponent from '@/public/components/promotions/promotion.component.vue';
 import touristProfileComponent from '@/tourist/components/tourist-profile/tourist-profile.component.vue';
-import ActivityDetail from '@/tourist/pages/activity-detail.vue'; // Add this line
+import ActivityDetail from '@/tourist/pages/activity-detail.vue';
 import ContactComponent from '../public/components/contact/contact.component.vue';
 import RootComponent from '../public/components/home/home.component.vue';
 import LoginComponent from '../public/pages/authentication/log-in.component.vue';
@@ -57,7 +57,7 @@ const router = createRouter({
       component: Activities,
     },
     {
-      path: '/activities/:id',
+      path: '/:id',
       component: ActivityDetail,
     },
   ],

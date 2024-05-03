@@ -11,12 +11,11 @@ export default {
   },
   data() {
     return {
-      ownerId: null,
+      ownerId: String,
     };
   },
   created() {
     this.ownerId = this.$route.params.id;
-    console.log(this.ownerId);
   },
 };
 </script>
