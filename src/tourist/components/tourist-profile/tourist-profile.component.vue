@@ -28,7 +28,7 @@ export default {
           <div class="tourist-content">
             <p class="tourist-name">User</p>
             <div class="image-container">
-              <img src="@/assets/userDefault.png" alt="imagen" class="profile-image" />
+              <img src="../../../assets/userDefault.png" alt="imagen" class="profile-image" />
             </div>
             <p class="tourist-quote">"Nunca te rindas ante las adversidades"</p>
           </div>
