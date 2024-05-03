@@ -43,7 +43,7 @@
 
 </template>
 
-<style scoped>
+<style>
 
 .toolbar-component {
   width: 100%;
@@ -70,7 +70,5 @@ h1{
 .toolbar-nav > p{
   font-size: 25px;
 }
-
-
 
 </style>
