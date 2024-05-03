@@ -6,7 +6,6 @@ import ToolbarComponent from "@/public/components/toolbar.component.vue";
 <template>
   <header>
     <toolbar-component>
-
     </toolbar-component>
     <router-view class ="router-class">
 
@@ -18,4 +17,5 @@ import ToolbarComponent from "@/public/components/toolbar.component.vue";
 .router-class{
   margin-top: 3em;
 }
+
 </style>
