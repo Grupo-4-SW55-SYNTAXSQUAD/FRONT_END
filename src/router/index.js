@@ -8,7 +8,8 @@ import touristProfileComponent from "@/tourist/components/tourist-profile/touris
 import PromotionListComponent from "@/public/components/promotions/promotion-list.component.vue";
 import PromotionCardComponent from "@/public/components/promotions/promotion-card.component.vue";
 import PromotionComponent from "@/public/components/promotions/promotion.component.vue";
-
+import DestinationsComponent from "@/public/components/destinations/destinations.component.vue";
+import InfoDestinationsComponent from "@/public/components/infodestinations/infodestinations.component.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -37,6 +38,14 @@ const router = createRouter({
         {
             path: "/profile-tourist",
             component: touristProfileComponent
+        },
+        {
+            path:"/destination",
+            component: DestinationsComponent
+        },
+        {
+            path:"/infodestination",
+            component: InfoDestinationsComponent
         },
         {
             path:"/promotion",
