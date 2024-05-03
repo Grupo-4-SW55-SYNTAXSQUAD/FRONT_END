@@ -1,16 +1,15 @@
 <template>
   <div>
-    <h1>Activities Component</h1>
-    <!-- Add your content here -->
+    <list-card />
   </div>
 </template>
 
 <script>
+import ListCard from '../components/list-card.component.vue';
+
 export default {
-  name: 'Activities',
+  components: {
+    ListCard,
+  },
 };
 </script>
-
-<style scoped>
-/* Add your component styles here */
-</style>
