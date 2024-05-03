@@ -13,7 +13,10 @@ import PromotionComponent from "@/public/components/promotions/promotion.compone
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-
+        {
+            path:'/',
+            redirect:"log-in"
+        },
         {
             path: '/log-in',
             name:'log-in',

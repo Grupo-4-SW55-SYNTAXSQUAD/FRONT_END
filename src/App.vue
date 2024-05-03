@@ -1,6 +1,7 @@
 
 <script setup>
 import ToolbarComponent from "@/public/components/toolbar.component.vue";
+import LogInComponent from "@/public/page/authentication/log-in.component.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import ToolbarComponent from "@/public/components/toolbar.component.vue";
     <router-view class ="router-class">
 
     </router-view>
+
   </header>
 </template>
 
