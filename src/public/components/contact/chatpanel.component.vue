@@ -3,7 +3,7 @@
 </script>
 
 <template >
-  <pv-panel :style="{height:'45em', width:'20em'}">
+  <pv-panel :style="{height:'46.5em', width:'20em'}">
     <template #header>
       <div style="background-color: cyan; font-size: 24px; padding: 4px; border-radius: 0.5em;">
         <p>Contactos</p>
@@ -17,8 +17,8 @@
           <i class = "img-class pi pi-user"/>
           <i class = "img-class pi pi-user"/>
           <i class = "img-class pi pi-user"/>
-
         </div>
+        <p>Mensajes:</p>
 
 
       </div>

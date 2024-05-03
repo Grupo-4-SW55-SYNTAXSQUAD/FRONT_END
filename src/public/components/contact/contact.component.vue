@@ -6,12 +6,13 @@ import ContactsPanelComponent from "./contactspanel.component.vue";
 
 <template>
   <header>
-    <div class = "flex justify-content-center gap-2">
+    <div class = "flex justify-content-center gap-3">
       <chat-panel-component>
       </chat-panel-component>
       <contacts-panel-component>
       </contacts-panel-component>
     </div>
+    <div style="height: 2em"></div>
   </header>
 </template>
 
