@@ -4,13 +4,13 @@
       <img :alt="owner.nameAgency" :src="owner.imageUrl" />
     </template>
     <template #title>{{ owner.nameActivity }}</template>
-    <template #subtitle>Card subtitle</template>
+    <template #subtitle>{{ owner.nameAgency }}</template>
     <template #content>
       <p class="m-0">{{ owner.description }}</p>
     </template>
     <template #footer>
       <div class="flex gap-3 mt-1">
-        <router-link :to="'/activities/' + owner.id">
+        <router-link :to="'/' + owner.id">
           <pv-button label="Ver Detalles" />
         </router-link>
       </div>

@@ -5,16 +5,6 @@
       <template #title>{{ owner.nameActivity }}</template>
       <template #content>
         <p class="m-0">{{ owner.description }}</p>
-        <p class="m-0">
-          <strong style="color: #191919 !important; font-weight: 800";
-            >Hours:</strong
-          >
-          {{ owner.hours }}
-        </p>
-        <p class="m-0">
-          <strong style="color: #191919 !important; font-weight: 800"">Price:</strong>
-          {{ owner.price }}
-        </p>
       </template>
     </pv-card>
   </div>
